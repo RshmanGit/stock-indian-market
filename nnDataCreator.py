@@ -54,10 +54,16 @@ class nnDataCreator:
             tempdict['target'] = templist
             self.new_data.append(tempdict)
 
-        for i in self.new_data:
-            print("----------------------")
-            print(i)
+    def retData(self):
+        return self.data
 
-abc = nnDataCreator('BSLGOLDETF')
-abc.trainTestDataCreator()
-abc.new_dataCreator()
+    def retTrainData(self):
+        return self.trainData
+
+    def retTestData(self):
+        return self.testData
+
+    def retNewData(self):
+        return self.new_data
+
+#BSLGOLDETF
