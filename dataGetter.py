@@ -46,7 +46,3 @@ class dataGetter:
             print('[-] Loading data failed')
 
         return data
-
-abc = dataGetter('BSLGOLDETF')
-abc.getData()
-data = abc.retData()
